@@ -1,0 +1,165 @@
+@mixin font($size,$color) {
+    font-size: $size;
+    color: $color;
+    // font-family: $family;
+}
+
+body{
+    // background-color: red;
+    margin: 0px;
+    padding: 0px;
+}
+
+#login{
+    height: 860px;
+    width: 1283px;
+    // background-color: rebeccapurple;
+    margin: auto;
+}
+
+#leftcontent{
+    height: 100%;
+    width: 541px+392px;
+    background-color: #035ee6;
+    background-image: url("../images/Group 32.png");
+    background-repeat: no-repeat;
+    background-position-x: 13px;
+    float: left;
+    // background img opacity olmali idi amma url ile oldugu ucun etmeyin hecbir yolu yoxdur
+}
+
+#left-section{
+    width: 541px;
+    height: 57px+60px+156px;
+    // background-color: red;
+    // margin: auto;
+    margin-top: 503px;
+    margin-left: 10px;
+    h1{
+        @include font(43px,white);
+        font-family: SegoeUIBlack, Segoe UI;
+        margin: auto;
+        height: 57px;
+        // background-color: yellow;
+    }
+}
+
+#intro{
+    @include font(20px,white);
+    font-family: SegoeUI, Segoe UI;
+    margin-top: 40px;
+    height: 62px;
+    // background-color: green;
+}
+
+#sign-in{
+    width: 218px;
+    height: 58px;
+    // background-color: blue;
+    margin-top: 54px;
+    border-radius: 50px;
+    border: 1px solid white;
+    background-color: #035ee6;
+    @include font(20px, white);
+    font-family: SegoeUI, Segoe UI;
+    box-sizing: border-box;
+    outline: none;
+}
+
+#rcontent{
+    width: 350px;
+    height: 860px;
+    // background-color: green;
+    float: right;
+    background-image: url("../images/Group\ 33.png");
+    background-repeat: no-repeat;
+    background-position-x: 180.5px;
+}
+
+#r-center-content{
+    width: 300px;
+    height: 104px+506px+27px;
+    // background-color: yellow;
+    margin-top: 162px;
+    margin-left: 50px;
+    #loginavatar{
+        margin-left: 1417px-1333px;
+    }
+}
+
+#login-explanion{
+    @include font(25px,black );
+    font-family:SegoeUI, Segoe UI;
+    text-align: center;
+    height: 33px;
+    margin-top: 37px;
+}
+
+%input{
+    width: 300px-2px;
+    height: 60px;
+    border-radius: 50px;
+    display: block;
+    margin: auto;
+}
+#first-input{
+    @extend %input;
+    border: solid 1px #176ae6;
+    margin-top: 42px;
+    background-color: white;
+    position: relative;
+    img{
+        margin-top: 22px;
+        margin-left: 26px;
+    }
+}
+
+#second-input{
+    @extend %input;
+    border: solid 1px #d4d4d4;
+    margin-top: 20px;
+    background-color: white;
+    position: relative;
+    img{
+        margin-top: 22px;
+        margin-left: 31px;
+    }
+}
+
+#submit{
+    @extend %input;
+    border: none;
+    background-color: #176ae6;
+    margin-top: 40px;
+    @include font(20px, white);
+    font-family: SegoeUI, Segoe UI;
+    outline: none;
+}
+
+#sign_up{
+    text-align: center;
+    margin-top: 154px;
+    @include font(20px, #707070);
+    font-family: SegoeUI, Segoe UI;
+    span{
+        font-family: SegoeUIBlack, Segoe UI;
+        font-weight: 700;
+    }
+}
+.input{
+    height: 58px;
+    width: 230px;
+    // background-color: red;
+    border: none;
+    // margin-top: -8px;
+    position: absolute;
+    top: 0px;
+    left: 68px;
+    border-bottom-right-radius: 50px;
+    border-top-right-radius: 50px;
+    font-size: 16px;
+    font-family: SegoeUI, Segoe UI;
+    padding-bottom: 5px;
+    box-sizing: border-box; 
+    outline: none;
+}

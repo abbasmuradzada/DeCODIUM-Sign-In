@@ -1,0 +1,160 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+#login {
+  height: 860px;
+  width: 1283px;
+  margin: auto;
+}
+
+#leftcontent {
+  height: 100%;
+  width: 933px;
+  background-color: #035ee6;
+  background-image: url("../images/Group 32.png");
+  background-repeat: no-repeat;
+  background-position-x: 13px;
+  float: left;
+}
+
+#left-section {
+  width: 541px;
+  height: 273px;
+  margin-top: 503px;
+  margin-left: 10px;
+}
+
+#left-section h1 {
+  font-size: 43px;
+  color: white;
+  font-family: SegoeUIBlack, Segoe UI;
+  margin: auto;
+  height: 57px;
+}
+
+#intro {
+  font-size: 20px;
+  color: white;
+  font-family: SegoeUI, Segoe UI;
+  margin-top: 40px;
+  height: 62px;
+}
+
+#sign-in {
+  width: 218px;
+  height: 58px;
+  margin-top: 54px;
+  border-radius: 50px;
+  border: 1px solid white;
+  background-color: #035ee6;
+  font-size: 20px;
+  color: white;
+  font-family: SegoeUI, Segoe UI;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  outline: none;
+}
+
+#rcontent {
+  width: 350px;
+  height: 860px;
+  float: right;
+  background-image: url("../images/Group 33.png");
+  background-repeat: no-repeat;
+  background-position-x: 180.5px;
+}
+
+#r-center-content {
+  width: 300px;
+  height: 637px;
+  margin-top: 162px;
+  margin-left: 50px;
+}
+
+#r-center-content #loginavatar {
+  margin-left: 84px;
+}
+
+#login-explanion {
+  font-size: 25px;
+  color: black;
+  font-family: SegoeUI, Segoe UI;
+  text-align: center;
+  height: 33px;
+  margin-top: 37px;
+}
+
+#first-input, #second-input, #submit {
+  width: 298px;
+  height: 60px;
+  border-radius: 50px;
+  display: block;
+  margin: auto;
+}
+
+#first-input {
+  border: solid 1px #176ae6;
+  margin-top: 42px;
+  background-color: white;
+  position: relative;
+}
+
+#first-input img {
+  margin-top: 22px;
+  margin-left: 26px;
+}
+
+#second-input {
+  border: solid 1px #d4d4d4;
+  margin-top: 20px;
+  background-color: white;
+  position: relative;
+}
+
+#second-input img {
+  margin-top: 22px;
+  margin-left: 31px;
+}
+
+#submit {
+  border: none;
+  background-color: #176ae6;
+  margin-top: 40px;
+  font-size: 20px;
+  color: white;
+  font-family: SegoeUI, Segoe UI;
+  outline: none;
+}
+
+#sign_up {
+  text-align: center;
+  margin-top: 154px;
+  font-size: 20px;
+  color: #707070;
+  font-family: SegoeUI, Segoe UI;
+}
+
+#sign_up span {
+  font-family: SegoeUIBlack, Segoe UI;
+  font-weight: 700;
+}
+
+.input {
+  height: 58px;
+  width: 230px;
+  border: none;
+  position: absolute;
+  top: 0px;
+  left: 68px;
+  border-bottom-right-radius: 50px;
+  border-top-right-radius: 50px;
+  font-size: 16px;
+  font-family: SegoeUI, Segoe UI;
+  padding-bottom: 5px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  outline: none;
+}
+/*# sourceMappingURL=style.css.map */
